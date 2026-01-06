@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap');
+
+@keyframes pulse-gold {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.7;
+  }
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
+
+/* Özel casino scrollbar */
+.casino-scrollbar::-webkit-scrollbar {
+  width: 8px;
+}
+
+.casino-scrollbar::-webkit-scrollbar-track {
+  background: #1E293B;
+}
+
+.casino-scrollbar::-webkit-scrollbar-thumb {
+  background: #FFD700;
+  border-radius: 4px;
+}
+
+/* Kart efektleri */
+.card-hover {
+  transition: all 0.3s ease;
+}
+
+.card-hover:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(255, 215, 0, 0.2);
+}
+
+/* Işık efekti */
+.glow-effect {
+  box-shadow: 0 0 15px rgba(255, 215, 0, 0.3);
+}
+
+/* Çip animasyonu */
+.chip-spin {
+  animation: spin-slow 3s linear infinite;
+}
